@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NumPadLogInDialog</class>
+ <widget class="QDialog" name="NumPadLogInDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NumPadLogInDialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QLCDNumber" name="lcdNumber"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="DuNumericPushButton" name="sietePushButton">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="cuatroPushButton">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="unoPushButton">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="clearPushButton">
+         <property name="text">
+          <string>CLEAR</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="DuNumericPushButton" name="ochoPushButton">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="cincoPushButton">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="dosPushButton">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="ceroPushButton">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="DuNumericPushButton" name="nuevePushButton">
+         <property name="text">
+          <string>9</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="seisPushButton">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="DuNumericPushButton" name="tresPushButton">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="enterPushButton">
+         <property name="text">
+          <string>ENTER</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>DuNumericPushButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">DuNumericPushButton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
